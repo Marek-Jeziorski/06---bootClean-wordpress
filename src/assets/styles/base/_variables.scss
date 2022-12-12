@@ -1,0 +1,59 @@
+:root {
+  /* FONT SIZES */
+  --fs-xl: clamp(3.5rem, 12vw + 1rem, 6rem);
+  --fs-900: 2rem;
+  --fs-600: 1.5rem;
+  --fs-500: 1.25rem;
+  --fs-400: 1rem;
+  --fs-300: 0.75rem;
+
+  /*   @mixin atLarge {
+    --fs-900: 2rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1.05rem;
+    --fs-300: 0.75rem;
+  } */
+
+  /* FONT WEIGHT */
+  --fw-100-hairline: 100;
+  --fw-200-thin: 200;
+  --fw-300-light: 300;
+  --fw-400-normal: 400;
+  --fw-500-medium: 500;
+  --fw-600-semibold: 600;
+  --fw-700-bold: 700;
+  --fw-800-extrabold: 800;
+  --fw-900-black: 900;
+
+  /* HEADINGS - default CSS*/
+  --h1: 32px; /* 2em */
+  --h2: 24px; /* 1.5em */
+  --h3: 18.72px; /* 1.17em */
+  --h4: 16px; /* 1em */
+  --h5: 13.28px; /* 0.83em */
+  --h6: 12px; /* 0.75em */
+
+  /* GRAYS */
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+
+  /* COLORS */
+  --co-blue: #0d6efd;
+  --co-indigo: #6610f2;
+  --co-purple: #6f42c1;
+  --co-pink: #020202;
+  --co-red: #dc3545;
+  --co-orange: #fd7e14;
+  --co-yellow: #ffc107;
+  --co-green: #198754;
+  --co-teal: #20c997;
+  --co-cyan: #0dcaf0;
+}

@@ -1,0 +1,39 @@
+.main-nav {
+  ul {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    padding: 12px;
+
+    @include atLarge {
+      flex-flow: row wrap;
+      column-gap: 16px;
+      row-gap: 16px;
+      padding: 0px;
+    }
+  }
+
+  li {
+    margin-bottom: 16px;
+    @include atLarge {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 12px 0 12px 12px;
+    color: var(--gray-100);
+    background-color: var(--gray-700);
+    font-weight: var(--fw-300-light);
+
+    @include atLarge {
+      padding: 12px 0;
+      background-color: transparent;
+
+      &.is-current-link {
+        color: var(--co-yellow);
+      }
+    }
+  }
+}
