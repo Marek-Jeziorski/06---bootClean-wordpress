@@ -7,7 +7,7 @@
 
   @include atLarge {
     position: fixed;
-    background-color: #6c757dad;
+    background-color: #6c757dd3;
 
     &--dark {
       background-color: #3a3d41d2;
@@ -109,5 +109,17 @@
       justify-content: space-between;
       align-items: center;
     }
+  }
+
+  @include atLarge {
+    &__col-navigation {
+      display: flex;
+    }
+  }
+
+  &__brand {
+    width: 100px;
+    height: 50px;
+    margin: 0 24px;
   }
 }
